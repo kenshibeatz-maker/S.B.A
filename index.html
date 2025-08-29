@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Breach Anomaly</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Cinzel', serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            overflow-x: hidden;
+        }
+        .container {
+            max-width: 900px;
+            margin: 80px auto;
+            padding: 40px;
+            opacity: 0;
+            animation: fadeIn 1.5s ease-out forwards;
+        }
+        h1, h2 {
+            font-size: 42px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: #fff;
+            opacity: 0;
+            transform: translateY(-20px);
+            animation: slideIn 1s ease-out forwards;
+        }
+        h2 {
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        p {
+            font-size: 20px;
+            line-height: 1.8;
+            opacity: 0;
+            transform: translateY(-20px);
+            animation: fadeIn 1.5s ease-out forwards;
+            animation-delay: 0.5s;
+        }
+        ul {
+            text-align: left;
+            list-style-type: none;
+            padding-left: 0;
+            opacity: 0;
+            animation: fadeIn 1.5s ease-out forwards;
+            animation-delay: 1s;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .contact {
+            margin-top: 60px;
+            font-size: 22px;
+            opacity: 0;
+            animation: fadeIn 1.5s ease-out forwards;
+            animation-delay: 1.5s;
+        }
+        .contact a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 80px;
+            padding: 20px;
+            font-size: 16px;
+            color: #777;
+        }
+        .arrow-up {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            background-color: #fff;
+            color: #000;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            opacity: 0;
+            transform: translateY(50px);
+            animation: fadeInArrow 1.5s ease-out forwards;
+            transition: transform 0.3s ease;
+        }
+        .arrow-up:hover {
+            transform: translateY(0) scale(1.1);
+        }
+        .arrow-up i {
+            font-size: 20px;
+        }
+
+        .qr-info {
+            margin-top: 60px;
+            font-size: 18px;
+            font-style: italic;
+            color: #ccc;
+            opacity: 0;
+            animation: fadeIn 1.5s ease-out forwards;
+            animation-delay: 2s;
+        }
+        .qr-info span {
+            font-weight: bold;
+            color: #fff;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes fadeInArrow {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Security Breach Anomaly</h1>
+        <p>Security Breach Anomaly to stowarzyszenie, które obecnie prowadzi nabór do elitarnej jednostki ochroniarskiej. Naszym celem jest stworzenie profesjonalnej organizacji zajmującej się ochroną osób, nieruchomości i obiektów strategicznych. W przyszłości planujemy przekształcenie stowarzyszenia w pełnoprawną firmę ochroniarską. Jako jednostka o wyjątkowym profilu, stawiamy na niezawodność, tajemniczość i najwyższy poziom usług ochroniarskich.</p>
+        
+        <h2>Nasza misja</h2>
+        <p>Nie zostawiamy miejsca na błędy – jesteśmy tam, gdzie nas potrzebujesz. Dzięki specjalistycznemu wyszkoleniu, zaawansowanym technologiom i wieloletniemu doświadczeniu gwarantujemy kompleksową ochronę na każdym poziomie. Działamy w pełnej dyskrecji, zapewniając najwyższe standardy bezpieczeństwa, niezależnie od skali zagrożenia.</p>
+        
+        <h2>Nasze usługi</h2>
+        <p>Oferujemy szeroki zakres usług ochroniarskich, które obejmują:</p>
+        <ul>
+            <li>Ochrona osób fizycznych (VIP, menedżerowie, politycy)</li>
+            <li>Ochrona obiektów (domy, biura, zakłady produkcyjne)</li>
+            <li>Ochrona imprez masowych (koncerty, wydarzenia publiczne)</li>
+            <li>Bezpieczeństwo eventów i konferencji</li>
+            <li>Ochrona transportu wartościowych towarów</li>
+        </ul>
+        <p>Wszystkie nasze usługi są dostosowane do indywidualnych potrzeb klienta. Zapewniamy pełną ochronę, zarówno fizyczną, jak i elektroniczną, z zastosowaniem najnowszych rozwiązań technologicznych.</p>
+        
+        <h2>Rekrutacja</h2>
+        <p>Poszukujemy osób gotowych na wyzwania, zdyscyplinowanych i gotowych do działania w ekstremalnych warunkach. Idealny kandydat to osoba, która posiada:</p>
+        <ul>
+            <li>Wysoką sprawność fizyczną</li>
+            <li>Odporność na stres i presję</li>
+            <li>Umiejętność pracy w zespole</li>
+            <li>Chęć ciągłego rozwoju i doskonalenia</li>
+            <li>Doświadczenie w pracy w ochronie (mile widziane, ale nie wymagane)</li>
+        </ul>
+        <p>Jeśli spełniasz te wymagania i chcesz dołączyć do naszego zespołu, skontaktuj się z nami poprzez dane kontaktowe poniżej.</p>
+        
+        <h2>Kontakt</h2>
+        <div class="contact">
+            <p>📞 Telefon: +48 790 555 947</p>
+            <p>📧 E-mail: <a href="mailto:securitybreachanomaly.op.pl">securitybreachanomaly@op.pl</a></p>
+            <p>🌍 Adres: Kraków, Polska</p>
+            <p>Nasze biuro jest dostępne 24/7, gotowi do działania w każdej sytuacji.</p>
+        </div>
+
+        <div class="qr-info">
+            <p>Jeśli widzisz tę stronę, oznacza to, że zostałeś osobiście wybrany. Tylko osoby posiadające specjalny kod QR mogą uzyskać dostęp do tej witryny. Jeśli nie masz kodu, nie będziesz w stanie zobaczyć tej strony w przyszłości.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Security Breach Anomaly. Wszystkie prawa zastrzeżone.</p>
+    </div>
+
+    <div class="arrow-up" id="scrollToTop">
+        <i>&#8593;</i>
+    </div>
+
+    <script>
+        // Scroll to top functionality
+        document.getElementById("scrollToTop").addEventListener("click", function() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+    </script>
+</body>
+</html>
+
